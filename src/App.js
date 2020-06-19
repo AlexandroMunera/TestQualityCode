@@ -70,6 +70,8 @@ function App() {
     setValor("");
     setItemSeleccionado("");
     setTRM("");
+
+    document.getElementById("lista").selectedIndex = "0";
   };
 
   async function postData(url = "", data = {}) {

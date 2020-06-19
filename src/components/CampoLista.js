@@ -6,8 +6,8 @@ function CampoLista({ name, options, handleChange }) {
     <div>
       <label>{name}</label>
 
-      <select defaultValue='0' onChange={(e) => handleChange(e)}>
-        <option key='0' value='0' disabled hidden>
+      <select id='lista' defaultValue='0' onChange={(e) => handleChange(e)}>
+        <option key='0' value='0' disabled >
           Seleccione
         </option>
 
